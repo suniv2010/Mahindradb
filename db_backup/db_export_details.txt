@@ -1,0 +1,5 @@
+ds117866.mlab.com:17866/feedbackdb_new
+
+mongodb://<dbuser>:<dbpassword>@ds221115.mlab.com:21115/feedbackdb
+
+mongoexport -h ds221115.mlab.com:21115 -d feedbackdb -c trainingnames -u sunitha -p nivedan1  -o trainingnames.json
